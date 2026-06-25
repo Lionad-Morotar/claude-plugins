@@ -1,0 +1,26 @@
+{
+  "name": "lionad-morotar",
+  "description": "Lionad 的 Claude Code 插件集市，聚合 cc-flow、cc-break-dead-loop 等插件。",
+  "owner": {
+    "name": "仿生狮子",
+    "url": "https://github.com/Lionad-Morotar"
+  },
+  "plugins": [
+    {
+      "name": "cc-flow",
+      "description": "Claude Code plugin：让外部长期运行进程通过本地 HTTP 或 MCP 工具向已打开的 CC 主会话注入上下文。",
+      "source": {
+        "source": "github",
+        "repo": "Lionad-Morotar/cc-flow"
+      }
+    },
+    {
+      "name": "cc-break-dead-loop",
+      "description": "Claude Code plugin：检测并打破对话中的死循环。",
+      "source": {
+        "source": "github",
+        "repo": "Lionad-Morotar/cc-break-dead-loop"
+      }
+    }
+  ]
+}
